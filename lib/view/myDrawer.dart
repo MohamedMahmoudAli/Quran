@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:quran/view/Qibla.dart';
 import 'package:quran/view/Settings.dart';
 import 'package:share_plus/share_plus.dart';
-import 'package:url_launcher/url_launcher.dart';
 class myDrawer extends StatelessWidget {
   const myDrawer({Key? key}) : super(key: key);
 
