@@ -41,6 +41,11 @@ dependencies:
   scrollable_positioned_list: ^0.3.5
   share_plus: ^6.3.0
   url_launcher: ^6.1.8
+<<<<<<< HEAD
+=======
+  get: ^4.6.5
+  flutter_compass: ^0.7.0
+>>>>>>> e8437f72ca0425bf1b63fe454c8ad739c87fbb81
 
 dev_dependencies:
   flutter_test:
@@ -72,6 +77,10 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/
+<<<<<<< HEAD
+=======
+    - assets/icons/
+>>>>>>> e8437f72ca0425bf1b63fe454c8ad739c87fbb81
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -86,6 +95,7 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
+<<<<<<< HEAD
     - family: me_quran
       fonts:
         - asset: assets/me_quran.ttf
@@ -93,6 +103,15 @@ flutter:
       fonts:
         - asset: assets/HafsSmart_08.ttf
 #         - asset: fonts/Schyler-Italic.ttf
+=======
+    - family: quran
+      fonts:
+        - asset: assets/HafsSmart_08.ttf
+    - family: me_quran
+      fonts:
+        - asset: assets/me_quran.ttf
+  #         - asset: fonts/Schyler-Italic.ttf
+>>>>>>> e8437f72ca0425bf1b63fe454c8ad739c87fbb81
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:

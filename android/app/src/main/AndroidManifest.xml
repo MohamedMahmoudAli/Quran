@@ -1,9 +1,20 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.quran">
+<<<<<<< HEAD
    <application
         android:label="Quran"
         android:name="${applicationName}"
         android:icon="mipmap/ic_launcher">
+=======
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+   <application
+        android:label="quran"
+        android:name="${applicationName}"
+        android:icon="@mipmap/ic_launcher">
+>>>>>>> e8437f72ca0425bf1b63fe454c8ad739c87fbb81
         <activity
             android:name=".MainActivity"
             android:exported="true"

@@ -28,7 +28,10 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 android {
     compileSdkVersion 33
     ndkVersion flutter.ndkVersion
+<<<<<<< HEAD
     buildToolsVersion "33.0.1"
+=======
+>>>>>>> e8437f72ca0425bf1b63fe454c8ad739c87fbb81
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -48,7 +51,11 @@ android {
         applicationId "com.example.quran"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-build-configuration.
+<<<<<<< HEAD
         minSdkVersion flutter.minSdkVersion
+=======
+        minSdkVersion 23
+>>>>>>> e8437f72ca0425bf1b63fe454c8ad739c87fbb81
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
